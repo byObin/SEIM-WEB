@@ -1,0 +1,43 @@
+{{>layout2/header2}}
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">&nbsp&nbsp&nbsp게시글 수정</h1>
+        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+    </div>
+
+    <!-- Content Row -->
+    <div class="col-md-12">
+        <div class="col-md-12">
+            <form>
+                <div class="form-group">
+                    <label for="id">글 번호</label>
+                    <!--mustache는 객체의 필드 접근식 dot으로 구분 (즉, Post 클래스의 id에 대한 접근은 post.id로 사용 가능)-->
+                    <input type="text" class="form-control" id="id" value="{{post2.id}}" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="title">제목</label>
+                    <input type="text" class="form-control" id="title" value="{{post2.title}}">
+                </div>
+                <div class="form-group">
+                    <label for="author">작성자</label>
+                    <!--readonly input태크에서 읽기만 가능케 하는 속성 수정하면 안되는곳에 readonly속성 사용 -->
+                    <input type="text" class="form-control" id="author" value="{{post2.author}}" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="content">내용</label>
+                    <textarea class="form-control" id="content">{{post2.content}}</textarea>
+                </div>
+            </form>
+            <a href="index2.mustache" role="button" class="btn btn-secondary">취소</a>
+            <button type="button" class="btn btn-primary" id="btn-update">수정</button>
+            <button type="button" class="btn btn-danger" id="btn-delete">삭제</button>
+        </div>
+    </div>
+</div>
+
+{{>layout2/footer2}}

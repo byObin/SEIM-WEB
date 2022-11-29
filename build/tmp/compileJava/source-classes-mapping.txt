@@ -14,8 +14,8 @@ com/jojoldu/book/springboot/web/PostsApiController.java
 com/jojoldu/book/springboot/web/dto/PostsSaveRequestDto.java
  com.jojoldu.book.springboot.web.dto.PostsSaveRequestDto
  com.jojoldu.book.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
-com/jojoldu/book/springboot/web/IndexController.java
- com.jojoldu.book.springboot.web.IndexController
+com/jojoldu/book/springboot/service/posts/PostsService2.java
+ com.jojoldu.book.springboot.service.posts.PostsService2
 com/jojoldu/book/springboot/domain/BaseTimeEntity.java
  com.jojoldu.book.springboot.domain.BaseTimeEntity
 com/jojoldu/book/springboot/web/dto/HelloResponseDto.java
@@ -27,3 +27,24 @@ com/jojoldu/book/springboot/domain/posts/Posts.java
  com.jojoldu.book.springboot.domain.posts.Posts$PostsBuilder
 com/jojoldu/book/springboot/web/HelloController.java
  com.jojoldu.book.springboot.web.HelloController
+com/jojoldu/book/springboot/domain/posts2/PostsRepository2.java
+ com.jojoldu.book.springboot.domain.posts2.PostsRepository2
+com/jojoldu/book/springboot/domain/posts2/Posts2.java
+ com.jojoldu.book.springboot.domain.posts2.Posts2
+ com.jojoldu.book.springboot.domain.posts2.Posts2$Posts2Builder
+com/jojoldu/book/springboot/web/dto/PostsSaveRequestDto2.java
+ com.jojoldu.book.springboot.web.dto.PostsSaveRequestDto2
+ com.jojoldu.book.springboot.web.dto.PostsSaveRequestDto2$PostsSaveRequestDto2Builder
+com/jojoldu/book/springboot/web/dto/PostsUpdateRequestDto2.java
+ com.jojoldu.book.springboot.web.dto.PostsUpdateRequestDto2
+ com.jojoldu.book.springboot.web.dto.PostsUpdateRequestDto2$PostsUpdateRequestDto2Builder
+com/jojoldu/book/springboot/web/IndexController2.java
+ com.jojoldu.book.springboot.web.IndexController2
+com/jojoldu/book/springboot/web/PostsApiController2.java
+ com.jojoldu.book.springboot.web.PostsApiController2
+com/jojoldu/book/springboot/web/dto/PostsResponseDto2.java
+ com.jojoldu.book.springboot.web.dto.PostsResponseDto2
+com/jojoldu/book/springboot/web/dto/PostsListResponseDto2.java
+ com.jojoldu.book.springboot.web.dto.PostsListResponseDto2
+com/jojoldu/book/springboot/web/IndexController.java
+ com.jojoldu.book.springboot.web.IndexController

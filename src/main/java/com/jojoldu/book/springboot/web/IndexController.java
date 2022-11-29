@@ -17,6 +17,11 @@ public class IndexController {
     private final PostsService postsService;
 
     @GetMapping("/")
+    public String firstPage() {
+        return "board.html";
+    }
+
+    @GetMapping("/index")
     public String index(Model model) {
         model.addAttribute("posts", postsService.findAllDesc());
         return "index";
