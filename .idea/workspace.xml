@@ -5,11 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc1e0f4d-9917-4a4a-84d8-d5ab756843da" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/board.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/board.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/blank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/buttons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/cards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/charts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/tables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/utilities-animation.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/utilities-animation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/utilities-border.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/utilities-border.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/utilities-color.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/utilities-color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/utilities-other.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/utilities-other.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/layout/header.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/layout/header.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/blank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/buttons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/cards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/charts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/tables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/utilities-animation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/utilities-animation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/utilities-border.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/utilities-border.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/utilities-color.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/utilities-color.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/utilities-other.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/utilities-other.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout/header.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/header.mustache" afterDir="false" />
     </list>
@@ -52,21 +68,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b39d1026a44c7dd85c32ac06180fa4a4&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "b39d1026a44c7dd85c32ac06180fa4a4"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="freelec-springboot2-webservice.main" />
@@ -88,7 +105,7 @@
       <workItem from="1669209754209" duration="16838000" />
       <workItem from="1669696129148" duration="1372000" />
       <workItem from="1669728023191" duration="1835000" />
-      <workItem from="1669735204626" duration="3321000" />
+      <workItem from="1669735204626" duration="4693000" />
     </task>
     <servers />
   </component>
