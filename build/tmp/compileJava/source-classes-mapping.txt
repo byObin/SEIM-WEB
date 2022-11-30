@@ -38,13 +38,13 @@ com/jojoldu/book/springboot/web/dto/PostsSaveRequestDto2.java
 com/jojoldu/book/springboot/web/dto/PostsUpdateRequestDto2.java
  com.jojoldu.book.springboot.web.dto.PostsUpdateRequestDto2
  com.jojoldu.book.springboot.web.dto.PostsUpdateRequestDto2$PostsUpdateRequestDto2Builder
-com/jojoldu/book/springboot/web/IndexController2.java
- com.jojoldu.book.springboot.web.IndexController2
+com/jojoldu/book/springboot/web/IndexController.java
+ com.jojoldu.book.springboot.web.IndexController
 com/jojoldu/book/springboot/web/PostsApiController2.java
  com.jojoldu.book.springboot.web.PostsApiController2
 com/jojoldu/book/springboot/web/dto/PostsResponseDto2.java
  com.jojoldu.book.springboot.web.dto.PostsResponseDto2
 com/jojoldu/book/springboot/web/dto/PostsListResponseDto2.java
  com.jojoldu.book.springboot.web.dto.PostsListResponseDto2
-com/jojoldu/book/springboot/web/IndexController.java
- com.jojoldu.book.springboot.web.IndexController
+com/jojoldu/book/springboot/web/IndexController2.java
+ com.jojoldu.book.springboot.web.IndexController2
